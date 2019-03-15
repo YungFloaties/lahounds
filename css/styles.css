@@ -105,7 +105,7 @@ h3 {
     font-weight: 100;
     font-size: 1.5rem;
     position:absolute;
-    top: 200px;
+    top: 100px;
     left:0px;
     right:0px;
     bottom:0px; 
@@ -235,6 +235,7 @@ header {
     right: 0;
     margin: 1em; 
 }
+
 .content
 {
     position:absolute;
@@ -249,21 +250,22 @@ nav {
     margin: 0 auto;
     padding: 0;
     list-style: none;
-
 }
 
 nav li {
     display: inline-block;
-    margin: .2em;  
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+    
+
 }
 
 nav a {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 1.1rem;
-    padding: .1em;
-    color: rgb(46, 46, 46);
+    padding: .5em;
+
+    color: rgb(95, 95, 95);
 }
 
 nav a:hover,
@@ -271,13 +273,38 @@ nav a:focus {
     color:   rgb(255, 255, 255);
 }
 
-@media (min-width:60rem) {
+@media (min-width:45rem) {
     .logo {
         float: left;
     }
 
     nav {
-        float: right;
+        float: center;
+    }
+    nav li {
+        display: inline-block;
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+        margin-right: 30px;
+    }
+    nav a {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width:65rem) {
+    .logo {
+        float: left;
+    }
+
+    nav {
+        float: center;
+    }
+    nav li {
+        display: inline-block;
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+        margin-right: 40px;
+    }
+    nav a { 
+        font-size: 2rem;
     }
 }
 .home-hero {
