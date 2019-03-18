@@ -94,9 +94,10 @@ h2 {
     font-weight: 100;
     font-size: 1.5rem;
     position:absolute;
+    border-width: 2px;
     top: 300px;
-    left:10%;
-    right:10%;
+    left:15%;
+    right:15%;
     bottom:0px; 
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
     color: rgb(255, 255, 255);
@@ -105,7 +106,7 @@ h3 {
     font-weight: 100;
     font-size: 1.5rem;
     position:absolute;
-    top: 100px;
+    top: 120px;
     left:0px;
     right:0px;
     bottom:0px; 
@@ -448,4 +449,22 @@ nav a:focus {
 .cta {
     background-color: black;
     padding: 2em 0;
+}
+
+.social-icons {
+    text-align: center;
+    }  
+.social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+.social-icons li a {
+    border-bottom: none;
+    }
+.social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
 }
