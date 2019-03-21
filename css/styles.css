@@ -266,12 +266,12 @@ nav a {
     font-size: 1.0rem;
     padding: .5em;
 
-    color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
 }
 
 nav a:hover,
 nav a:focus {
-    color:   rgb(255, 255, 255);
+    color:   rgb(95, 95, 95);
 }
 
 @media (min-width:45rem) {
