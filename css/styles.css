@@ -313,6 +313,7 @@ nav a:focus {
     background-size: cover;
     background-position: center;
     padding: 10em 0;
+    height: 100vh;
     color: #FFF;
 }
 .black-hero {
@@ -326,7 +327,7 @@ nav a:focus {
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
-    height: 200vh;
+    height: 120vh;
     padding: 10em 0;
     color: #FFF;
 }
@@ -335,7 +336,7 @@ nav a:focus {
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
-    height: 200vh;
+    height: 125vh;
     padding: 10em 0;
     color: #FFF;
 }
