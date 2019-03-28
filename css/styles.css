@@ -6,7 +6,6 @@ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
     transition: all ease-in-out 250ms;
 }
 
-
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -39,8 +38,6 @@ img {
 }
 
 /* Columns */
-
-
 [class^=col-] {
     width: 100%;
     margin-top: 1em;
@@ -55,32 +52,24 @@ img {
     float: left;
 }
 
-
 @media (min-width: 40rem){
-
     [class^=col-] {
         float: left;
         padding: 0 .5em;
         margin-top: 0;
     }
-    
     [class^=col-]:first-child {
         padding-left: 0;
     }
-    
     [class^=col-]:last-child {
         padding-right: 0;
     }
-
     .col-3 {
         width: 50%
     }
-
     .col-1 {
         width: 16.6666667%;
-
     }   
-
 }
 
 /* typography */
@@ -113,7 +102,6 @@ h3 {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
 }
 
-
 p {
     margin-top: 0;
     line-height: 1.5;
@@ -123,7 +111,6 @@ p {
 p:last-of-type {
     margin-bottom: 0;
 }
-
 
 .title {
     font-size: 2.5rem;
@@ -227,8 +214,6 @@ p:last-of-type {
 
 }
 
-
-
 /* Header */
 header {
     position: absolute;
@@ -246,7 +231,6 @@ header {
     bottom:0px;
 }​
 
-
 nav {
     margin: 0 auto;
     padding: 0;
@@ -256,8 +240,6 @@ nav {
 nav li {
     display: inline-block;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-    
-
 }
 
 nav a {
@@ -265,7 +247,6 @@ nav a {
     text-transform: uppercase;
     font-size: 1.0rem;
     padding: .5em;
-
     color: rgb(255, 255, 255);
 }
 
@@ -278,7 +259,6 @@ nav a:focus {
     .logo {
         float: left;
     }
-
     nav {
         float: center;
     }
@@ -308,18 +288,17 @@ nav a:focus {
         font-size: 2rem;
     }
 }
+.black-hero {
+    padding-top: 35vh;
+    height: 100vh;
+    color: #FFF;
+}
 .home-hero {
     background-image: url(../img/who-we-are.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10em 0;
+    padding-top: 35vh;
     height: 100vh;
-    color: #FFF;
-}
-.black-hero {
-    background-size: cover;
-    background-position: center;
-    padding: 5em 0;
     color: #FFF;
 }
 .granite-hero {
@@ -337,23 +316,21 @@ nav a:focus {
     background-position: center;
     background-attachment:fixed;
     height: 125vh;
-    padding: 10em 0;
+    padding-top: 35vh;
     color: #FFF;
 }
+/*
 @media (min-width: 30rem) {
     .home-hero {
         height: 100vh;
         padding-top: 35vh;
-    }
-    .black-hero {
-        height: 100vh;
     }
     .granite-hero {
         height: 130vh;
         padding-top: 35vh;
     }
     .bio-hero {
-        height: 100vh;
+        height: 125vh;
         padding-top: 35vh;
     }
     
@@ -363,50 +340,20 @@ nav a:focus {
         height: 100vh;
         padding-top: 35vh;
     }
-    .black-hero {
-        height: 100vh;
-    }
     .granite-hero {
         height: 130vh;
         padding-top: 35vh;
     }
     .bio-hero {
-        height: 100vh;
+        height: 125vh;
         padding-top: 35vh;
     }
-    
 }
-
-
-.home-about-textbox {
-
-    background-color: black;
-    padding: 4em;
-    width: 100vw;
-    margin-left: -2.5%;
-    outline: 2px solid #FFF;
-    outline-offset: -2.5em;
-    color: #FFF;
-    position: relative;
-
-}
-
-.home-about-textbox h1 {
-    color: black;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: .3em;
-    background: #FFF;
-    padding: 0 .25em;
-}
-
+*/
 @media (min-width: 25rem) {
     h1 {
         font-size: 2rem;
     }
-    
-
     .home-about-textbox h1 {
         top: .6em;
         padding: 0 .325em;
@@ -416,40 +363,6 @@ nav a:focus {
     h1 {
         font-size: 2.5rem;
     }
-
-    .home-about {
-        background-image: url(../img/who-we-are.jpg);
-        background-repeat: no-repeat;
-        padding-bottom: 10em;
-    }
-
-
-    .home-about-textbox {
-        
-        width: 50%;
-        padding: 7em;
-        outline-offset: -3.75em;
-        /*margin-left: -2.5%; */
-        top: -5em;
-        text-align: left;
-        box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
-    
-    }
-
-    .home-about-textbox h1 {
-        top: .75em;
-        left: 6rem;
-        transform: translateX(0);
-    }
-}
-
-
-
-/* CTA ------ */
-
-.cta {
-    background-color: black;
-    padding: 2em 0;
 }
 
 .social-icons {
