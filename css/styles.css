@@ -296,7 +296,7 @@ nav a:focus {
 .home-hero {
     background-image: url(../img/who-we-are.jpg);
     background-size: cover;
-    background-position: center;
+    background-attachment:fixed;
     padding-top: 35vh;
     height: 100vh;
     color: #FFF;
